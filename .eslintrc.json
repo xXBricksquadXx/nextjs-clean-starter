@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "extends": ["next/core-web-vitals", "airbnb", "airbnb-typescript", "prettier"],
+  "parserOptions": { "project": "./tsconfig.json" },
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/prefer-default-export": "off",
+    "react/function-component-definition": [
+      "error",
+      { "namedComponents": "arrow-function" }
+    ],
+    "react/require-default-props": "off",
+    "lines-around-directive": ["error", "always"]
+  }
+}
