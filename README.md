@@ -29,6 +29,7 @@
 
 ---
 
+## Use this repo as a template: click “Use this template” → “Create a new repository”.
 ## Overview
 Opinionated starter focused on **clean code** and **quick shipping**:
 - ES6+ (arrow functions) & strict TypeScript
